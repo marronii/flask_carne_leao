@@ -1,0 +1,13 @@
+body{
+    background: whitesmoke;
+}
+
+p{
+    text-align: center;
+}
+/* quando coloco h1 antes do strong estou stilizando em modo cascata ou seja
+ para colorir de dark blue no HTML tem que ter h1 antes do strong, caso for diferente
+ não irá colorir*/
+h1 strong{
+    color: darkblue;
+}
